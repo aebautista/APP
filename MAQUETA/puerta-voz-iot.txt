@@ -1,0 +1,20 @@
+# Proyecto IoT: Apertura de Puerta por Comando de Voz
+
+Este proyecto permite abrir una puerta mediante comandos de voz utilizando un ESP32 y un servidor Flask.
+
+## Tecnologías utilizadas
+
+- ESP32 con MicroPython
+- Servidor Flask en Python
+- Comunicación HTTP entre Flask y ESP32
+
+## Estructura del proyecto
+
+- `app.py`: Servidor Flask que recibe comandos de voz y envía señales al ESP32.
+- `main.py`: Código MicroPython para el ESP32 que controla la apertura de la puerta.
+
+## Cómo usar
+
+1. Configura y ejecuta el servidor Flask (`app.py`).
+2. Asegúrate de que el ESP32 esté conectado a la misma red y ejecutando `main.py`.
+3. Envía un comando de voz al servidor Flask para abrir la puerta.
